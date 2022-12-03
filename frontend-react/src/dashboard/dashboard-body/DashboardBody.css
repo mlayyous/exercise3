@@ -1,0 +1,13 @@
+.Dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    background-color: #f5f5f5;
+}
+
+.Dashboard-cards > div {
+    margin: 10px;
+}

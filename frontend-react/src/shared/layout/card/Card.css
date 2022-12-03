@@ -1,0 +1,30 @@
+.Card {
+    border-radius: 2px;
+    min-height: 100px;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Card-header {
+    margin-bottom: 20px;
+}
+
+.Card-header .Card-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Card-header .Card-subtitle {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.warn {
+    background-color: #ff8383;
+}
